@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Registration</title>
+<link rel="stylesheet"  href="style1.css">
+</head>
+<body style="text-align:center;">
+  <section class="header">
+<center><h1><b><u>Voting Registration</u></b></h1>
+<form action="action_page.php">
+  First name:
+  <input type="text" name="firstname" placeholder="Firstname">
+  <br>
+
+  Last name:
+  <input type="text" name="lastname" placeholder="Lastname">
+  <br>
+  
+  Email:
+   <input type="email" name="Email" placeholder="Enter your Email">
+<br>
+
+Address:
+<input type="address" name="address" placeholder="Enter your address">
+ <br>
+
+  Phone no:
+  <input type="text" name="Phone no" placeholder="Enter your phone  no"><br>
+Gender
+<br>
+<input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br>
+  <input type="radio" name="gender" value="other"> Other<br><br>
+
+
+<form action="upload.php" method="post">
+    <h5>Upload your voter id here</h5>
+    Attach a file:
+    <input type="file" name="Attach a file" id="Attach a file">
+</form><br>
+
+<form action="#" onsubmit="if(document.getElementById('agree').checked) {return true; } else { alert('Please ensure to read and agree to the Terms and Conditions and Privacy Policy'); return false; }">
+
+<input type="checkbox" name="checkbox" value="check" id="agree" /><i><u> I have read and agree to the Terms and Conditions and Privacy Policy
+</i></u></form>
+<br>
+
+<form action="">
+  <input type="submit" value="Register"<a href="register.html"></a>
+</form> 
+<br>
+<br>
+<br>
+</center>
+</section>
+
+<marquee>Designed and developed by team 51</marquee>
+</body>
+</html>
