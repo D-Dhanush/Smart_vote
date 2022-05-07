@@ -5,4 +5,4 @@
 ![new register](https://user-images.githubusercontent.com/92636153/167257365-81f759ab-8912-4bb3-9c5b-79ef2e61b291.jpg)
 ![register](https://user-images.githubusercontent.com/92636153/167257371-a6f8b00c-cfd6-4984-b86d-ea258c8887d0.jpg)
 ![vote](https://user-images.githubusercontent.com/92636153/167257375-4b3079b8-9207-498d-acd8-c40615b3dca2.jpg)
-# Smart-Vote
+
